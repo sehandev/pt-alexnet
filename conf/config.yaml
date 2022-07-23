@@ -1,0 +1,12 @@
+seed: 42
+epochs: 20
+batch_size: 256
+num_workers: 8
+lr: 5e-4
+gamma: 0.7
+log_interval: 10
+is_save: false
+wandb_api_key: [W&B api key]
+wandb_project: fashion_mnist
+wandb_name: tmp
+now: ${now:%y%m%d%H%M%S}
